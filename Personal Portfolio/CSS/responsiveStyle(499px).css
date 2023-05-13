@@ -18,7 +18,9 @@
     }
 
     /*************************************** Home Section Started ***************************************/
-
+    .home-section .home-section-container header .mobile-nav ul li {
+        width: 40vw;
+    }
     /*************************************** Home Section - Top Started ***************************************/
     .top-section-container {
         height: 410px;
