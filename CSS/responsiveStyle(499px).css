@@ -1,0 +1,360 @@
+/* Max-Width: 749px */
+
+@media screen and (max-width: 499px) {
+
+    :root {
+        --primaryColor: rgb(18, 5, 48);
+        --secondaryColor: rgb(160, 122, 243);
+        --tertiaryColor: rgb(10, 102, 194);
+        --primaryFont: 'Ubuntu', sans serif;
+        --secondaryFont: 'Nunito', sans-serif;
+        --primaryFontColor: #fff;
+        --secondaryFontColor: rgb(160, 122, 243);
+        --primaryButtonHoverColor: rgb(10, 102, 194);
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    /*************************************** Home Section Started ***************************************/
+    .home-section .home-section-container header .mobile-nav ul li {
+        width: 200px;
+        width: 40vw;
+    }
+
+    /*************************************** Home Section - Top Started ***************************************/
+    .top-section-container {
+        height: 410px;
+        margin: 30px 0 0 0;
+    }
+
+    .image-container .img {
+        width: 170px;
+        height: 185px;
+        margin: 0px 0px 0px 63px;
+    }
+
+    .top-section-container .img img {
+        width: 220px;
+        height: 190px;
+    }
+
+    .top-section-container .social-media-icons {
+        justify-content: space-evenly;
+        margin: 18px 15px;
+        margin-left: 25px;
+    }
+
+    .top-section-container .social-media-icons .icons i {
+        font-size: 1.9rem;
+    }
+
+    .text-area {
+        align-items: center;
+        margin: 0px 0 0 40px;
+    }
+
+    .text-area>span {
+        font-size: 1.6rem;
+    }
+
+    .typewriter-animation {
+        font-size: 20px;
+        margin: 10px 0px 0px -30px;
+    }
+
+    .dynamic-text {
+        margin: -0.5px 0px 0px 7px;
+    }
+
+    /*************************************** Home Section - Top Ended ***************************************/
+    /*************************************** Home Section Ended ***************************************/
+
+    /*************************************** About Section Started ***************************************/
+    .about-section-container {
+        width: 94%;
+        height: 300px;
+        margin: 30% 0px 0px 3%;
+    }
+
+    .about-section-container nav ul button {
+        font-size: .9rem;
+    }
+
+    .about-section-container nav ul button label {
+        padding: 8px 12px;
+    }
+
+    .about-section-container .information {
+        width: 92%;
+        height: 290px;
+        margin: 5% 0 0 4%;
+    }
+
+    .about-section-container .information .about::before {
+        height: 85%;
+        width: 10%;
+        left: 6%;
+    }
+
+    .about-section-container .information .about p {
+        font-size: 0.77rem;
+        width: 90%;
+        padding: 2% 8% 2% 4%;
+
+    }
+
+    .about-section-container .information .about .about2 {
+        top: 33%;
+    }
+
+    .about-section-container .information .about .about3 {
+        top: 62%;
+        padding: 1.6% 10% 1.6% 4%;
+    }
+
+    .about-section-container .information .qualification {
+        justify-content: center;
+        margin: 60px 0 0 9%;
+        padding: 0 20px 0 0px;
+    }
+
+    .about-section-container .information .qualification p {
+        font-family: var(--primaryFont);
+        font-size: 4.5vw;
+    }
+
+    .qualification p i {
+        font-size: 2.5rem;
+        font-size: 6vw;
+        margin: 0px 20px 0px 10px;
+    }
+
+    .qualification p i.fa-building-columns {
+        margin: 0px 20px 0px 10px;
+    }
+
+    /*************************************** About Section Ended ***************************************/
+
+    /*************************************** Slills Section Started ***************************************/
+    .skills-section-container h1 {
+        font-size: 3.1rem;
+    }
+
+    /*************************************** Skills Section Ended ***************************************/
+
+    /*************************************** Projects Section Started ***************************************/
+    .projects-section {
+        margin: 200px 0 0 0;
+    }
+
+    .projects-section>h1 {
+        font-size: 3.1rem;
+    }
+
+    .project {
+        height: 300px;
+    }
+
+
+    .project h1 {
+        font-size: 1.7rem;
+    }
+
+    .project2 h1 {
+        left: 45px;
+    }
+
+    .project4 h1 {
+        left: 10px;
+    }
+
+    .project5 h1 {
+        left: 50px;
+    }
+
+    .project button {
+        left: 15px;
+        bottom: 10px;
+    }
+
+    .project button a {
+        font-size: 0.9rem;
+        padding: 7px 20px;
+    }
+
+    .project .live {
+        left: 114px;
+    }
+
+    .project .live a {
+        padding: 7px 30px;
+
+    }
+
+    .project iframe {
+        height: 100%;
+        width: 210px;
+    }
+
+
+    /*************************************** Projects Section Ended ***************************************/
+
+
+    /*************************************** Blog Section Started ***************************************/
+    .blogs-section-container {
+        margin: -50px 0 0 0;
+    }
+
+    .blogs-section-container .head1 {
+        font-size: 3.1rem;
+    }
+
+    .blogs-section-container .head2 {
+        font-size: 1rem;
+        top: 175px;
+    }
+
+    .blogs-section-container .blog {
+        width: 270px;
+        height: 150px;
+    }
+
+    .blog .avatar {
+        width: 20px;
+    }
+
+    .blog .avatar img {
+        width: 20px;
+    }
+
+    .blog .domain-name {
+        font-size: 1rem;
+    }
+
+    .blog .blog-body h2 {
+        font-size: 1.5rem;
+        margin: 10px 0px 0px 20px;
+    }
+
+    .blog .blog-body p {
+        margin: 10px 0px 0px 20px;
+    }
+
+    .blog .blog-footer {
+        margin: 10px 25px 9px 0px;
+    }
+
+    .blog .blog-footer .fa-solid {
+        font-size: 1rem;
+        margin: 0px 0px 0px 20px;
+    }
+
+    /*************************************** Blog Section Ended ***************************************/
+
+    /*************************************** Contact Section Started ***************************************/
+    .contact-section-container {
+        margin: -50px 0 0 0;
+    }
+
+    .contact-section-container h1 {
+        font-size: 3.1rem;
+    }
+
+    .post-card-container {
+        width: 260px;
+        height: 180px;
+        margin: 135px 0 0 0px;
+    }
+
+    .post-card {
+        height: 100px;
+        border-top: 90px solid transparent;
+        border-bottom: 90px solid rgb(20, 4, 56);
+        border-left: 130px solid rgb(67, 31, 145);
+        border-right: 130px solid rgb(20, 4, 56);
+    }
+
+    .lid {
+        border-top: 100px solid rgb(160, 122, 243);
+        border-bottom: 100px solid transparent;
+        border-left: 130px solid transparent;
+        border-right: 130px solid transparent;
+    }
+
+    .letter {
+        width: 85%;
+        height: 240px;
+        top: -80px;
+    }
+
+    .form form i {
+        margin: 51px 0px 0 0px;
+        left: 30px;
+        font-size: 1.1rem;
+    }
+
+    .form form i input {
+        font-size: .7rem;
+        width: 170px;
+        padding: 1px 6px 1px 6px;
+        margin: 0px 0 15px 7px;
+    }
+
+    .form form textarea {
+        top: 90px;
+        left: 30px;
+        width: 195px;
+        font-size: .7rem;
+        height: 60px;
+    }
+
+    .form form input[type="submit"] {
+        top: 165px;
+        left: 23.5%;
+        width: 80px;
+        padding: 5px 0px 5px 0px;
+        font-size: .7rem;
+    }
+
+    /************************************** Contact Section Ended ***************************************/
+
+
+    /************************************** Footer Section Started **************************************/
+    .footer-section {
+        margin-top: 80px;
+    }
+
+    .footer-section-container {
+        justify-content: flex-start;
+        height: 128px;
+    }
+
+    .footer-section-container .social-media {
+        display: flex;
+        margin: 25px 0 0 0px;
+    }
+
+    .footer-section-container .social-media .icon {
+        width: 100%;
+        height: 50px;
+    }
+
+    .footer-section-container .social-media .icon a {
+        margin-right: 40px;
+    }
+
+    .footer-section-container .social-media .icon a .fa {
+        font-size: 2rem;
+    }
+
+    .footer-section-container p {
+        margin: 30px 0 0 0;
+    }
+
+
+    /************************************** Footer Section Ended **************************************/
+
+
+}

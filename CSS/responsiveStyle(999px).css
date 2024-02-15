@@ -1,0 +1,93 @@
+/* Max-Width: 999px */
+
+@media screen and (max-width: 999px) {
+
+    /*************************************** Home Section - Top Started ***************************************/
+
+    .top-section-container {
+        width: 90%;
+        height: 430px;
+    }
+
+    .image-container {
+        margin: 25px 0px 0px -15px;
+    }
+
+    .image-container .img {
+        width: 235px;
+        height: 250px;
+        margin: 0px 0px 0px 100px;
+    }
+
+    .top-section-container .img img {
+        width: 280px;
+        height: 300px;
+    }
+
+    .top-section-container .social-media-icons {
+        margin: 15px 103px;
+    }
+
+    .text-area {
+        margin: 0px 0 0 -10px;
+    }
+
+    .text-area>span {
+        font-size: 2.3rem;
+        margin: 0px 0px 0px -50px;
+    }
+
+    .typewriter-animation {
+        margin: 10px 0px 0px -50px;
+        font-size: 25px;
+    }
+
+    .static-text {
+        margin: 13px 0 0 0;
+    }
+
+    .dynamic-text {
+        margin: 1px 0px 0px 12px;
+    }
+
+    /*************************************** Home Section - Top Ended ***************************************/
+
+    /*************************************** About Section Started ***************************************/
+
+    .about-section-container {
+        margin: 18% 0px 0px 5%;
+    }
+
+    .about-section-container .information {
+        width: 75%;
+        margin: 3% 0 0 12%;
+    }
+
+    .about-section-container .information .qualification p {
+        font-family: var(--primaryFont);
+        font-size: 3.5vw;
+    }
+
+    /*************************************** About Section Ended ***************************************/
+
+    /*************************************** Blog Section Started ***************************************/
+
+    .blogs-section-container .head2 {
+        font-size: 2.5rem;
+    }
+
+    .blogs-section-container .blog {
+        width: 700px;
+    }
+
+    /*************************************** Blog Section Ended ***************************************/
+
+    /*************************************** Skill Section Started ***************************************/
+    .skills-section-container {
+        margin: 200px 0px 0px 0px;
+    }
+
+    /*************************************** Skill Section Ended ***************************************/
+
+
+}
