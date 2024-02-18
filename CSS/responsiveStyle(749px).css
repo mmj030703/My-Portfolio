@@ -97,8 +97,6 @@
 
     .home-section .home-section-container header .mobile-nav ul li {
         list-style: none;
-        width: 200px;
-        padding: 10px 30px;
         background: linear-gradient(to bottom right, rgb(95, 55, 180) 0.3%, rgb(37, 9, 104));
     }
 
@@ -107,7 +105,10 @@
     }
 
     .home-section .home-section-container header .mobile-nav ul li a {
+        display: block;
         color: rgb(199, 180, 241);
+        padding: 10px 30px;
+        width: 200px;
     }
 
     /*************************************** Home Section - Top Started ***************************************/
