@@ -26,8 +26,8 @@
         right: 3%;
         top: 3.2%;
         font-size: 1.7rem;
-        color: var(--secondaryFontColor);
-        background-color: var(--primaryColor);
+        color: #fff;
+        background-color: rgb(95, 55, 180);
         border-radius: 50%;
         height: 38px;
         width: 38px;
@@ -60,9 +60,7 @@
         right: -100%;
         top: 13%;
         background: linear-gradient(to bottom right, rgb(67, 31, 145) 0.3%, rgb(20, 4, 56));
-        height: 320px;
         box-shadow: 0 0 4px #000;
-        padding: 3px 0 0 0;
         transition: all .4s ease-in-out;
     }
 
@@ -99,17 +97,9 @@
 
     .home-section .home-section-container header .mobile-nav ul li {
         list-style: none;
-        margin: 20px 20px;
         width: 200px;
-    }
-
-
-    .home-section .home-section-container header .mobile-nav ul li:first-child {
-        margin-top: 25px;
-    }
-
-    .home-section .home-section-container header .mobile-nav ul li:last-child {
-        margin-right: 16px;
+        padding: 10px 30px;
+        background: linear-gradient(to bottom right, rgb(95, 55, 180) 0.3%, rgb(37, 9, 104));
     }
 
     .home-section .home-section-container header .mobile-nav ul li::after {

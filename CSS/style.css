@@ -63,18 +63,18 @@ header label {
     justify-content: flex-end;
 }
 
-.home-section .home-section-container header nav ul li {
+.home-section .home-section-container header nav.desktop-nav ul li {
     min-width: 10px;
     margin: 15px 20px;
     list-style: none;
     position: relative;
 }
 
-.home-section .home-section-container header nav ul li:last-child {
+.home-section .home-section-container header nav.desktop-nav ul li:last-child {
     margin-right: 35px;
 }
 
-.home-section .home-section-container header nav ul li::after {
+.home-section .home-section-container header nav.desktop-nav ul li::after {
     content: "";
     position: absolute;
     left: 0;
@@ -94,7 +94,7 @@ header label {
     width: 0%;
 }
 
-.home-section .home-section-container header nav ul li:hover::after {
+.home-section .home-section-container header nav.desktop-nav ul li:hover::after {
     width: 105%;
 }
 
